@@ -77,11 +77,11 @@ nav div{
 #toggle-btn{
     background-color: rgb(0, 119, 255);
     color: white;
-    padding: 10px 12px;
+    padding: 0.5vw 1vw;
     border-radius: 10px;
     border: none;
     margin-top: 10px;
-    font-size: 0.8vmax;
+    font-size: 0.9vmax;
 }
 .left{
     width: 45%;
@@ -113,11 +113,11 @@ nav div{
     font-size: 2vw;
     border-bottom: 1px solid #333;
 }
-#icon-box i{
-    font-size: 7vmax;
-    font-weight: 600;
-    color: white;
+#icon{
+    height: 50%;
+   
 }
+
 #details{
     width: 100%;
     height: 50%;
@@ -139,7 +139,13 @@ nav div{
     width: 100%;
     height: 30vh;
     margin: 20px;
-    background-color: pink;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    line-height: 25px;
+    overflow-x: scroll;
 }
 
 
