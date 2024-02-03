@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div>
+                <input type="text" id="search-bar" placeholder="Enetr Location">
+                <button id="search-btn">Search</button>
+            </div>  
+        </nav>
+        <div class="container">
+            <div class="right">
+                <div class="r-content">
+                    <div>
+                        <h3 id="location">Location</h3>
+                        <h4 id="date">Date</h4>
+                    </div>
+                    <div>
+                        <h1 id="temp">Temp</h1>
+                        <button id="toggle-btn">toggle unit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="left">
+                <div class="l-content">
+                    <div id="icon-box">
+                        <i id="icon" class="bi bi-brightness-high-fill"></i>
+                        <p id="descrip">sunny</p>
+                    </div>
+                    <div id="details">
+                        <div>
+                            <h1 class="details-txt" id="min-temp">21</h1>
+                            <p>Max</p>
+                        </div>
+                        <div>
+                            <h1 class="details-txt" id="max-temp">32</h1>
+                            <p>Min</p>
+                        </div>
+                        <div>
+                            <h1 class="details-txt" id="wind-speed">222</h1>
+                            <p>Wind Speed</p>
+                        </div>
+                        <div>
+                            <h1 class="details-txt" id="humidity">88</h1>
+                            <p>Humidity</p>
+                        </div>
+                    
+                    </div>
+                </div>
+               
+                <div id="forecast">
+                    <h1>5 Day Forecast</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
