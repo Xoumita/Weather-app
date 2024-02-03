@@ -5,7 +5,6 @@ Features:
 Current Weather: Fetches and displays current weather data including temperature, humidity, wind speed, and weather description.
 5-Day Forecast: Displays a 5-day forecast showing the date, average temperature, weather description, and appropriate weather icon for each day.
 Search Functionality: Users can search for weather information by entering the name of the city.
-Temperature Unit: The app displays temperatures in Celsius by default but can be easily toggled to Fahrenheit.
 
 Technologies Used:
 HTML5
